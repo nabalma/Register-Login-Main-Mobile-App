@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">sge</string>
+
+
+
+
+    <string name="loginLabel_Caption">LOGIN</string>
+    <string name="loginNom_Caption">Nom</string>
+    <string name="loginPassword_Caption">Mot de Passe</string>
+    <string name="loginButton_Caption">LOGIN</string>
+    <string name="allerARegister_Caption">Vous êtes Nouveau ?, Creer votre Compte</string>
+
+
+    <string name="mainLabel_Caption">MAIN</string>
+
+
+
+    <string name="registerLabel_Caption">REGISTER</string>
+    <string name="registerNomUtilisateur_Caption">Nom Utilisateur</string>
+    <string name="registerMotDePasse_Caption">Mot de passe</string>
+    <string name="registerNom_Caption">Nom</string>
+    <string name="registerPrenom_Caption">Prenom</string>
+    <string name="registerSexe_Caption">Sexe</string>
+    <string name="registerDateNaissance_Caption">Date de Naissance</string>
+    <string name="registerNumeroTelephone_Caption">Numero de Telephone</string>
+    <string name="registerButton_Caption">CREER COMPTE</string>
+
+
+    <string name="MainLabel_Caption">MAIN</string>
+    <string name="MainPrefUserName_Caption"> Nom d\'Utilisateur  :  </string>
+    <string name="MainPrefPassword_Caption"> Mot de passe  :  </string>
+    <string name="MainPrefNom_Caption"> Nom  :  </string>
+    <string name="MainPrefPrenom_Caption"> Prenom  :  </string>
+    <string name="MainPrefSexe_Caption"> Sexe  :  </string>
+    <string name="MainPrefDateNaissance_Caption"> Date de Naissance  :  </string>
+    <string name="MainPrefNumeroTelephone_Caption"> Numéro Téléphone :  </string>
+    <string name="MainButton_Caption"> Ne plus se souvenir de mes données :  </string>
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.LoginActivity"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="134dp"
+        android:layout_height="119dp"
+        android:src="@drawable/teccart_logo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginLabel_Caption"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/idLoginUserName"
+        android:layout_width="match_parent"
+        android:hint="@string/loginNom_Caption"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/idLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/loginPassword_Caption"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/idconnexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginButton_Caption"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/idAllerARegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/allerARegister_Caption"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

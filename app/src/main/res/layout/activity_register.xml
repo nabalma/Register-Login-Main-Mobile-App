@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.LoginActivity"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="134dp"
+        android:layout_height="119dp"
+        android:src="@drawable/teccart_logo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registerLabel_Caption"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/idNomUtilisateur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registerNomUtilisateur_Caption"
+
+        />
+
+    <EditText
+        android:id="@+id/idMotDePasse"
+        android:layout_width="match_parent"
+        android:hint="@string/registerMotDePasse_Caption"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/idNom"
+        android:layout_width="match_parent"
+        android:hint="@string/registerNom_Caption"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/idPrenom"
+        android:layout_width="match_parent"
+        android:hint="@string/registerPrenom_Caption"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/idSexe"
+        android:layout_width="match_parent"
+        android:hint="@string/registerSexe_Caption"
+        android:layout_height="wrap_content"
+        />
+
+
+    <EditText
+        android:id="@+id/idDateNaissance"
+        android:layout_width="match_parent"
+        android:hint="@string/registerDateNaissance_Caption"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/idNumeroTelephone"
+        android:layout_width="match_parent"
+        android:hint="@string/registerNumeroTelephone_Caption"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Button
+        android:id="@+id/idCreerCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/registerButton_Caption"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
